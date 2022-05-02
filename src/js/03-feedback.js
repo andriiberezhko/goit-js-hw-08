@@ -28,6 +28,7 @@ function onFormSubmit(event) {
 
     if (mail === '' || message === '') {
         alert('Все поля должны быть заполнены');
+        return;
     }
     else {
         const formEl = {
